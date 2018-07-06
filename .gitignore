@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Gecko driver
+geckodriver.log
+
 # C extensions
 *.so
 
@@ -24,6 +27,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
