@@ -14,7 +14,7 @@ class NewVisitorTest(unittest.TestCase):
     def test_can_start_a_list_and_retrieve_it_letter(self):
         # Edith ouviu falar de uma nova aplicação online interessante para
         # lista de tarefas. Ela decide verificar sua homepage
-        self.browser.get('http://localhost:8000')
+        self.browser.get('http://localhost:8000/')
 
         # Ela percebe que o titulo da página e o cabeçalho mencionam listas de
         # taferefas (to-do)
