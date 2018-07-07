@@ -1,7 +1,6 @@
 from django.urls import resolve
 from django.test import TestCase
 from lists.views import home_page
-from django.template.loader import render_to_string
 
 
 class HomePageTest(TestCase):
