@@ -38,13 +38,15 @@ class NewVisitorTest(unittest.TestCase):
         # Ela digita "Buy peacock feathers" em uma caixa de texto
         input_box.send_keys('Buy peacock feathers')
         input_box.send_keys(Keys.ENTER)
+        time.sleep(1)
+        self.check_for_row_in_list_table('1: Buy peacock feathers')
+        time.sleep(1)
+        input_box = self.browser.find_element_by_id('id_new_item')
         input_box.send_keys('Use peacock to make a fly')
         input_box.send_keys(Keys.ENTER)
 
         time.sleep(1)
-
-        self.check_for_row_in_list_table('1: Buy peacock feathers'),
-        self.check_for_row_in_list_table('2: Use peacock to make a fly'),
+        self.check_for_row_in_list_table('2: Use peacock to make a fly')
 
         # Edith se pergunta se o site lembrará de sua lista. Então ela nota
         # que o site gerou um url único para ela

@@ -1,12 +1,13 @@
-from superlists import settings
-from django.shortcuts import render
+from lists import models
+from django.shortcuts import render, redirect
 
 
 def home_page(request):
     if request.method == 'POST':
-        settings.TODO_LIST.append(request.POST.get('item_text', ''))
-
+        new_item_text = request.POST.get('item_text', '')
+        models.Item.objects.create(text=new_item_text)
+        return redirect('/')
     context = {
-        'new_item_text': settings.TODO_LIST
+        'items': models.Item.objects.all()
     }
     return render(request, 'home.html', context)
