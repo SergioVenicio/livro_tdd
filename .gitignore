@@ -8,6 +8,7 @@ geckodriver.log
 
 # C extensions
 *.so
+*/migrations/*
 
 # Distribution / packaging
 .Python

@@ -1,11 +1,9 @@
 # from django.contrib import admin
-from django.urls import path
-from lists import views
+from django.urls import path, include
+from lists import urls as lists_urls
+from lists import views as lists_views
 
 urlpatterns = [
-    path('', views.home_page, name='home'),
-    path('list/new', views.new_list, name='new_list'),
-    path(
-        'lists/the-only-list-in-the-world/', views.view_list, name='view_list'
-    ),
+    path('', lists_views.home_page, name='home'),
+    path('lists/', include(lists_urls))
 ]

@@ -50,17 +50,13 @@ class NewVisitorTest(LiveServerTestCase):
         # Ela digita "Buy peacock feathers" em uma caixa de texto
         input_box.send_keys('Buy peacock feathers')
         input_box.send_keys(Keys.ENTER)
-        time.sleep(1)
         self.wait_for_row_in_list_table('1: Buy peacock feathers')
+
         input_box = self.browser.find_element_by_id('id_new_item')
         input_box.send_keys('Use peacock to make a fly')
         input_box.send_keys(Keys.ENTER)
 
         self.wait_for_row_in_list_table('2: Use peacock to make a fly')
-
-        # Edith se pergunta se o site lembrará de sua lista. Então ela nota
-        # que o site gerou um url único para ela
-        self.fail('Finish the test')
 
     def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith inicia uma nova lista de taferefas
