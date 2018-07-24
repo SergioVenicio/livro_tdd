@@ -1,35 +1,8 @@
-import time
-from selenium import webdriver
+from .base import FunctionalTest, webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import WebDriverException
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
 
-MAX_WAIT = 10
-
-
-class NewVisitorTest(StaticLiveServerTestCase):
-    def setUp(self):
-        self._path = FirefoxBinary('/opt/firefox/firefox')
-        self.browser = webdriver.Firefox(firefox_binary=self._path)
-
-    def tearDown(self):
-        self.browser.quit()
-
-    def wait_for_row_in_list_table(self, row_text):
-        start_time = time.time()
-        while True:
-            try:
-                table = self.browser.find_element_by_id('id_list_table')
-                rows = table.find_elements_by_tag_name('tr')
-                self.assertIn(row_text, [row.text for row in rows])
-                return
-            except(AssertionError, WebDriverException) as e:
-                if time.time() - start_time > MAX_WAIT:
-                    raise e
-                time.sleep(0.5)
-
+class NewVisitorTest(FunctionalTest):
     def test_can_start_a_list_and_retrieve_it_letter(self):
         # Edith ouviu falar de uma nova aplicação online interessante para
         # lista de tarefas. Ela decide verificar sua homepage
@@ -101,24 +74,3 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # Satisfeitos, ambos voltam a dormir
-
-    def test_layout_and_styling(self):
-        # Edith acessa a página inicial
-        self.browser.get(self.live_server_url)
-        self.browser.set_window_size(1024, 768)
-
-        # Ela percebe que a caixa de entrada está elegantemente centralizada
-        input_box = self.browser.find_element_by_id('id_new_item')
-
-        # Ela inicia uma nova lista e vê que a entrada está elegantemente
-        # centralizada aí também
-        input_box.send_keys('testing')
-        input_box.send_keys(Keys.ENTER)
-
-        self.wait_for_row_in_list_table('1: testing')
-
-        input_box = self.browser.find_element_by_id('id_new_item')
-        self.assertAlmostEqual(
-            input_box.location['x'] + input_box.size['width'] / 2,
-            512, delta=100
-        )
