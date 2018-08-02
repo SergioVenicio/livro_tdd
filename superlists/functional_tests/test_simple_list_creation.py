@@ -1,7 +1,6 @@
 from .base import FunctionalTest, webdriver
 from selenium.webdriver.common.keys import Keys
 
-
 class NewVisitorTest(FunctionalTest):
     def test_can_start_a_list_and_retrieve_it_letter(self):
         # Edith ouviu falar de uma nova aplicação online interessante para
@@ -24,12 +23,6 @@ class NewVisitorTest(FunctionalTest):
         input_box.send_keys('Buy peacock feathers')
         input_box.send_keys(Keys.ENTER)
         self.wait_for_row_in_list_table('1: Buy peacock feathers')
-
-        input_box = self.browser.find_element_by_id('id_new_item')
-        input_box.send_keys('Use peacock to make a fly')
-        input_box.send_keys(Keys.ENTER)
-
-        self.wait_for_row_in_list_table('2: Use peacock to make a fly')
 
     def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith inicia uma nova lista de taferefas
