@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="499cb22c-ede8-406d-9128-de5859084e09" name="Default" comment="Fim do capitulo 17">
-      <change afterPath="$PROJECT_DIR$/superlists/accounts/autehntication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superlists/accounts/templates/login_email_send.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superlists/accounts/urls.py" afterDir="false" />
+    <list default="true" id="499cb22c-ede8-406d-9128-de5859084e09" name="Default" comment="Login sem senha">
+      <change afterPath="$PROJECT_DIR$/superlists/functional_tests/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/lists/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/superlists/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/superlists/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/superlists/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/superlists/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_forms.coverage" NAME="Test: lists.tests.test_forms Coverage Results" MODIFIED="1533249876093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests_test_login_LoginTest.coverage" NAME="Test: functional_tests.test_login.LoginTest Coverage Results" MODIFIED="1533321876523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_views_ListViewTest_test_duplicate_item_validation_errors_end_up_on_lists_page.coverage" NAME="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page Coverage Results" MODIFIED="1533306222322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests.coverage" NAME="Test: functional_tests Coverage Results" MODIFIED="1533313391257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superlists/functional_tests" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_models_ListViewTest_test_duplicate_items_are_invalid.coverage" NAME="Test: lists.tests.test_models.ListViewTest.test_duplicate_items_are_invalid Coverage Results" MODIFIED="1533304917571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -52,22 +48,22 @@
         <counts>
           <entry key="html" value="5" />
           <entry key="js" value="2" />
-          <entry key="py" value="23" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JavaScript" value="2" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1410" />
           <entry key="js" value="252" />
-          <entry key="py" value="7288" />
-          <entry key="txt" value="49" />
+          <entry key="py" value="8525" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -75,8 +71,8 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1409" />
           <entry key="JavaScript" value="252" />
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="7288" />
+          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="Python" value="8525" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -120,34 +116,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/accounts/autehntication.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1533318716585" expanded="true" signature="74:79" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/accounts/templates/login_email_send.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            <state relative-caret-position="18">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
                 <marker date="1533308062646" expanded="true" signature="209:286" ph="..." />
                 <marker date="1533308062646" expanded="true" signature="1730:1739" ph="..." />
                 <marker date="1533308062646" expanded="true" signature="2451:2460" ph="..." />
@@ -157,37 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/static/tests/tests.html">
+        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_simple_list_creation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1533307272939" expanded="true" signature="825:830" ph="..." />
-                <marker date="1533307272939" expanded="true" signature="977:1032" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1533304856380" expanded="true" signature="339:370" ph="..." />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -206,11 +152,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superlists/superlists/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="432">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1533321875409" expanded="true" signature="280:285" ph="..." />
+                <marker date="1533321875409" expanded="true" signature="329:338" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="36" />
+              <folding>
+                <marker date="1533307407035" expanded="true" signature="1695:2126" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,6 +222,8 @@
       <find>invalid</find>
       <find>invalid_pass</find>
       <find>home</find>
+      <find>esc</find>
+      <find>esca</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,6 +267,7 @@
         <option value="$PROJECT_DIR$/superlists/accounts/urls.py" />
         <option value="$PROJECT_DIR$/superlists/accounts/models.py" />
         <option value="$PROJECT_DIR$/superlists/superlists/settings.py" />
+        <option value="$PROJECT_DIR$/superlists/functional_tests/test_login.py" />
       </list>
     </option>
   </component>
@@ -409,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.Livro TDD">
+  <component name="RunManager" selected="Django tests.Test: functional_tests.test_login.LoginTest">
     <configuration name="Livro TDD" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="livro_tdd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -446,6 +433,26 @@
       <option name="TARGET" value="functional_tests" />
       <option name="SETTINGS_FILE" value="$PROJECT_DIR$/superlists/superlists/settings.py" />
       <option name="CUSTOM_SETTINGS" value="true" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: functional_tests.test_login.LoginTest" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="livro_tdd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="functional_tests.test_login.LoginTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
@@ -510,26 +517,6 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: lists.tests.test_models.ListViewTest.test_str_representation" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
-      <module name="livro_tdd" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="lists.tests.test_models.ListViewTest.test_str_representation" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <module name="livro_tdd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -581,16 +568,16 @@
       <item itemvalue="Django tests.Test: lists.tests" />
       <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_duplicate_items_are_invalid" />
       <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_list_ordering" />
-      <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_str_representation" />
       <item itemvalue="Django tests.Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" />
+      <item itemvalue="Django tests.Test: functional_tests.test_login.LoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: functional_tests.test_login.LoginTest" />
         <item itemvalue="Django tests.Test: lists.tests" />
         <item itemvalue="Django tests.Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" />
         <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_duplicate_items_are_invalid" />
         <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_list_ordering" />
-        <item itemvalue="Django tests.Test: lists.tests.test_models.ListViewTest.test_str_representation" />
       </list>
     </recent_temporary>
   </component>
@@ -619,25 +606,17 @@
       <option name="project" value="LOCAL" />
       <updated>1533315350975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login sem senha">
+      <created>1533320840887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533320840888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 37m 16s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 40m 09s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 40m 32s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 41m 01s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 41m 14s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="Test__functional_tests - 2018.08.03 at 11h 42m 37s.xml">
       <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
@@ -653,6 +632,21 @@
     <history-entry file="Test__functional_tests - 2018.08.03 at 13h 24m 07s.xml">
       <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__functional_tests_test_login_LoginTest - 2018.08.03 at 15h 39m 38s.xml">
+      <configuration name="Test: functional_tests.test_login.LoginTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_test_login_LoginTest - 2018.08.03 at 15h 41m 43s.xml">
+      <configuration name="Test: functional_tests.test_login.LoginTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_test_login_LoginTest - 2018.08.03 at 15h 42m 43s.xml">
+      <configuration name="Test: functional_tests.test_login.LoginTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_test_login_LoginTest - 2018.08.03 at 15h 43m 21s.xml">
+      <configuration name="Test: functional_tests.test_login.LoginTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_test_login_LoginTest - 2018.08.03 at 15h 44m 13s.xml">
+      <configuration name="Test: functional_tests.test_login.LoginTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1023" y="0" width="1362" height="769" extended-state="6" />
@@ -663,7 +657,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.502451" side_tool="true" weight="0.25378788" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3427673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3427673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,26 +686,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Validação de formulários" />
     <MESSAGE value="Fim do capitulo 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fim do capitulo 17" />
+    <MESSAGE value="Login sem senha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login sem senha" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_layout_and_styling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/tests.py" />
     <entry file="file://$PROJECT_DIR$/app_superlists/lists/tests/test_all.py" />
     <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_all.py" />
-    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_simple_list_creation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/superlists/lists/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -746,20 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -805,19 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1533308062646" expanded="true" signature="209:286" ph="..." />
-            <marker date="1533308062646" expanded="true" signature="1730:1739" ph="..." />
-            <marker date="1533308062646" expanded="true" signature="2451:2460" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,8 +853,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/superlists/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="432">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_simple_list_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <marker date="1533308062646" expanded="true" signature="209:286" ph="..." />
+            <marker date="1533308062646" expanded="true" signature="1730:1739" ph="..." />
+            <marker date="1533308062646" expanded="true" signature="2451:2460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <marker date="1533307407035" expanded="true" signature="1695:2126" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_layout_and_styling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1533321875409" expanded="true" signature="280:285" ph="..." />
+            <marker date="1533321875409" expanded="true" signature="329:338" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
