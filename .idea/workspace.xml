@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="499cb22c-ede8-406d-9128-de5859084e09" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/livro_tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/livro_tdd.iml" afterDir="false" />
+    <list default="true" id="499cb22c-ede8-406d-9128-de5859084e09" name="Default" comment="Validação de formulários">
+      <change afterPath="$PROJECT_DIR$/superlists/lists/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superlists/lists/static/tests/tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/npm.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/superlists/lists/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/lists/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlists/lists/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/superlists/lists/tests/test_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/tests/test_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/lists/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/tests/test_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/superlists/lists/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlists/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/lists/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +34,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_forms.coverage" NAME="Test: lists.tests.test_forms Coverage Results" MODIFIED="1533249876093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests.coverage" NAME="Test: functional_tests Coverage Results" MODIFIED="1533304320818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superlists/functional_tests" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_views_ListViewTest_test_duplicate_item_validation_errors_end_up_on_lists_page.coverage" NAME="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page Coverage Results" MODIFIED="1533306222322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests.coverage" NAME="Test: functional_tests Coverage Results" MODIFIED="1533313391257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superlists/functional_tests" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_models_ListViewTest_test_duplicate_items_are_invalid.coverage" NAME="Test: lists.tests.test_models.ListViewTest.test_duplicate_items_are_invalid Coverage Results" MODIFIED="1533304917571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests_test_list_item_validation.coverage" NAME="Test: functional_tests.test_list_item_validation Coverage Results" MODIFIED="1533302782219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_models_ListViewTest_test_list_ordering.coverage" NAME="Test: lists.tests.test_models.ListViewTest.test_list_ordering Coverage Results" MODIFIED="1533304913765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -29,7 +44,7 @@
     <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests_test_simple_list_creation.coverage" NAME="Test: functional_tests.test_simple_list_creation Coverage Results" MODIFIED="1533246540007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__functional_tests_test_layout_and_styling.coverage" NAME="Test: functional_tests.test_layout_and_styling Coverage Results" MODIFIED="1533248121221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Livro_TDD.coverage" NAME="Livro TDD Coverage Results" MODIFIED="1533245894029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1533306388095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1533307415555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_models_ListViewTest_test_str_representation.coverage" NAME="Test: lists.tests.test_models.ListViewTest.test_str_representation Coverage Results" MODIFIED="1533304817346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/livro_tdd$Test__lists_tests_test_views.coverage" NAME="Test: lists.tests.test_views Coverage Results" MODIFIED="1533246635124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -44,31 +59,39 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="4" />
+          <entry key="js" value="2" />
           <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="2" />
           <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="43" />
-          <entry key="py" value="3632" />
+          <entry key="html" value="1015" />
+          <entry key="js" value="252" />
+          <entry key="py" value="4706" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="43" />
-          <entry key="Python" value="3632" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1014" />
+          <entry key="JavaScript" value="252" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="4706" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -79,18 +102,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,19 +117,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="324">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1533305650152" expanded="true" signature="1653:2096" ph="..." />
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1533307407035" expanded="true" signature="1695:2126" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -134,62 +140,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_forms.py">
+        <entry file="file://$PROJECT_DIR$/superlists/lists/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1533306091184" expanded="true" signature="816:1123" ph="..." />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
+        <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="702">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1533302860905" expanded="true" signature="1625:1634" ph="..." />
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1533307145812" expanded="true" signature="816:1123" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/forms.py">
+        <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="260">
+              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1533306369867" expanded="true" signature="825:830" ph="..." />
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1533308062646" expanded="true" signature="209:286" ph="..." />
+                <marker date="1533308062646" expanded="true" signature="1730:1739" ph="..." />
+                <marker date="1533308062646" expanded="true" signature="2451:2460" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/superlists/settings.py">
+        <entry file="file://$PROJECT_DIR$/superlists/lists/static/tests/tests.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="80">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superlists/lists/models.py">
+        <entry file="file://$PROJECT_DIR$/superlists/lists/static/js/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1533304856380" expanded="true" signature="339:370" ph="..." />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -215,10 +215,13 @@
       <find>time.</find>
       <find>test_sa</find>
       <find>invalid</find>
+      <find>invalid_pass</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -230,20 +233,22 @@
         <option value="$PROJECT_DIR$/app_superlists/lists/tests/test_all.py" />
         <option value="$PROJECT_DIR$/superlists/lists/tests/test_view.py" />
         <option value="$PROJECT_DIR$/superlists/lists/tests/test_all.py" />
-        <option value="$PROJECT_DIR$/superlists/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/superlists/lists/urls.py" />
         <option value="$PROJECT_DIR$/superlists/functional_tests/test_simple_list_creation.py" />
         <option value="$PROJECT_DIR$/superlists/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/superlists/lists/tests/__init__.py" />
         <option value="$PROJECT_DIR$/superlists/lists/templates/list.html" />
-        <option value="$PROJECT_DIR$/superlists/lists/views.py" />
         <option value="$PROJECT_DIR$/superlists/superlists/settings.py" />
-        <option value="$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py" />
         <option value="$PROJECT_DIR$/superlists/lists/models.py" />
         <option value="$PROJECT_DIR$/superlists/lists/tests/test_models.py" />
-        <option value="$PROJECT_DIR$/superlists/lists/tests/test_views.py" />
         <option value="$PROJECT_DIR$/superlists/lists/tests/test_forms.py" />
+        <option value="$PROJECT_DIR$/superlists/lists/views.py" />
         <option value="$PROJECT_DIR$/superlists/lists/forms.py" />
+        <option value="$PROJECT_DIR$/superlists/lists/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py" />
+        <option value="$PROJECT_DIR$/superlists/lists/static/js/list.js" />
+        <option value="$PROJECT_DIR$/superlists/lists/static/tests/tests.html" />
+        <option value="$PROJECT_DIR$/superlists/lists/templates/base.html" />
       </list>
     </option>
   </component>
@@ -264,6 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +299,29 @@
               <item name="livro_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="superlists" type="462c0819:PsiDirectoryNode" />
               <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="livro_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livro_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="superlists" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="livro_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livro_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="superlists" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="livro_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livro_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="superlists" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,7 +341,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,10 +352,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/superlists/lists/static/js" />
+      <recent name="$PROJECT_DIR$/superlists/lists/static/tests" />
       <recent name="$PROJECT_DIR$/superlists" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/superlists/lists/tests" />
-      <recent name="$PROJECT_DIR$/superlists/lists" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: lists.tests">
+  <component name="RunManager" selected="Django tests.Test: functional_tests">
     <configuration name="Livro TDD" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="livro_tdd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -538,50 +567,58 @@
       <option name="presentableId" value="Default" />
       <updated>1532470758981</updated>
     </task>
+    <task id="LOCAL-00001" summary="Validação de formulários">
+      <created>1533306416037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533306416037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__lists_tests_test_models_ListViewTest_test_list_ordering - 2018.08.03 at 11h 01m 08s.xml">
-      <configuration name="Test: lists.tests.test_models.ListViewTest.test_list_ordering" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests_test_models_ListViewTest_test_list_ordering - 2018.08.03 at 11h 01m 48s.xml">
-      <configuration name="Test: lists.tests.test_models.ListViewTest.test_list_ordering" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests_test_models_ListViewTest_test_list_ordering - 2018.08.03 at 11h 01m 54s.xml">
-      <configuration name="Test: lists.tests.test_models.ListViewTest.test_list_ordering" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests_test_models_ListViewTest_test_duplicate_items_are_invalid - 2018.08.03 at 11h 01m 58s.xml">
-      <configuration name="Test: lists.tests.test_models.ListViewTest.test_duplicate_items_are_invalid" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 02m 04s.xml">
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 37m 16s.xml">
       <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 05m 47s.xml">
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 40m 09s.xml">
       <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__lists_tests_test_views_ListViewTest_test_duplicate_item_validation_errors_end_up_on_lists_page - 2018.08.03 at 11h 13m 25s.xml">
-      <configuration name="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests_test_views_ListViewTest_test_duplicate_item_validation_errors_end_up_on_lists_page - 2018.08.03 at 11h 14m 14s.xml">
-      <configuration name="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests_test_views_ListViewTest_test_duplicate_item_validation_errors_end_up_on_lists_page - 2018.08.03 at 11h 23m 42s.xml">
-      <configuration name="Test: lists.tests.test_views.ListViewTest.test_duplicate_item_validation_errors_end_up_on_lists_page" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 23m 48s.xml">
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 40m 32s.xml">
       <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 41m 01s.xml">
+      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 41m 14s.xml">
+      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests - 2018.08.03 at 11h 42m 37s.xml">
+      <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__lists_tests - 2018.08.03 at 11h 43m 36s.xml">
+      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests - 2018.08.03 at 11h 44m 08s.xml">
+      <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests - 2018.08.03 at 11h 55m 56s.xml">
+      <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests - 2018.08.03 at 13h 24m 07s.xml">
+      <configuration name="Test: functional_tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1023" y="0" width="1362" height="769" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.26636225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.27092847" />
       <window_info id="Structure" order="1" sideWeight="0.502451" side_tool="true" weight="0.25378788" />
       <window_info id="Favorites" order="2" sideWeight="0.502451" side_tool="true" weight="0.25378788" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3427673" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3427673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,6 +644,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Validação de formulários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validação de formulários" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_layout_and_styling.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,13 +659,6 @@
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/tests.py" />
     <entry file="file://$PROJECT_DIR$/app_superlists/lists/tests/test_all.py" />
     <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_all.py" />
-    <entry file="file://$PROJECT_DIR$/superlists/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_simple_list_creation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -656,18 +690,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/superlists/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="324">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/functional_tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <marker date="1533305144771" expanded="true" signature="296:437" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1533307407035" expanded="true" signature="1695:2126" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1533307145812" expanded="true" signature="816:1123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1533304856380" expanded="true" signature="339:370" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,67 +763,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/models.py">
+    <entry file="file://$PROJECT_DIR$/superlists/lists/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1533307272939" expanded="true" signature="825:830" ph="..." />
+            <marker date="1533307272939" expanded="true" signature="977:1032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1533304856380" expanded="true" signature="339:370" ph="..." />
-          </folding>
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/static/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/lists/static/tests/tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/functional_tests/test_list_item_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="260">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <marker date="1533302860905" expanded="true" signature="1625:1634" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <marker date="1533305144771" expanded="true" signature="296:437" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1533305650152" expanded="true" signature="1653:2096" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/tests/test_forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533306091184" expanded="true" signature="816:1123" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1533306369867" expanded="true" signature="825:830" ph="..." />
+            <marker date="1533308062646" expanded="true" signature="209:286" ph="..." />
+            <marker date="1533308062646" expanded="true" signature="1730:1739" ph="..." />
+            <marker date="1533308062646" expanded="true" signature="2451:2460" ph="..." />
           </folding>
         </state>
       </provider>

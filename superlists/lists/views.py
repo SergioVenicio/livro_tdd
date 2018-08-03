@@ -13,12 +13,12 @@ def home_page(request):
 
 def view_list(request, id):
     list_ = models.List.objects.get(pk=id)
-    form = forms.ItemForm()
+    form = forms.ExistingListItemError(for_list=list_)
 
     if request.method == 'POST':
-        form = forms.ItemForm(request.POST)
+        form = forms.ExistingListItemError(for_list=list_, data=request.POST)
         if form.is_valid():
-            form.save(for_list=list_)
+            form.save()
             return redirect(list_)
 
     context = {
