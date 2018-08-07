@@ -75,6 +75,6 @@ class ItemValidationTest(FunctionalTest):
         self.get_item_input_box().send_keys('a')
 
         # Ela fica satisfeita ao ver que a menssagem de erro desaparece
-        self.wait_for(lambda : self.assertFalse(
+        self.wait_for(lambda: self.assertFalse(
             self.get_error_element().is_displayed()
         ))
