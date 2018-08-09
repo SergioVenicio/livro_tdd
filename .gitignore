@@ -6,6 +6,7 @@ __pycache__/
 # Gecko driver
 geckodriver.log
 
+.idea/
 # C extensions
 *.so
 */migrations/*
